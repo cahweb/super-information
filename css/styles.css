@@ -6,12 +6,12 @@
 
 }
 
-.si-form-container .si-editable-row form .si-field {
+.si-form-container form .si-editable-row .si-field {
 	display: inline-block;
 	margin: 0 30px 0 0;
 }
 
-.si-form-container .si-editable-row form .si-field label {
+.si-form-container form .si-editable-row .si-field label {
 	display: block;
 	font-style: italic;
 	font-size: 0.8em;

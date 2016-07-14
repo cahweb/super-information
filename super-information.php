@@ -9,6 +9,8 @@
 * -- Note: All plugin-specific function names, class tags, ids, etc will be prefixed with 'si' for 'Super Information' --
 */
 
+include 'general-fields.php';
+
 // Add our stylesheets and scripts
 add_action('admin_enqueue_scripts', 'si_add_client_files');
 function si_add_client_files() {
@@ -39,4 +41,3 @@ function si_page_create() {
 function si_page_display() {
 	include 'views/view.php';
 }
-

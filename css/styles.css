@@ -2,19 +2,38 @@
 
 }
 
+.si-form-container input[type="text"],
+.si-form-container input[type="url"] {
+	width: 300px;
+}
+
 .si-form-container .si-editable-row {
 
 }
 
-.si-form-container form .si-editable-row .si-field {
+.si-form-container form .si-editable-row .si-field-inline{
 	display: inline-block;
 	margin: 0 30px 0 0;
 }
 
-.si-form-container form .si-editable-row .si-field label {
+.si-form-container form label {
 	display: block;
 	font-style: italic;
 	font-size: 0.8em;
 }
 
+.si-form-container form h3 {
+	display: inline-block;
+}
 
+.si-form-container form h4 {
+	margin: 0 0 10px 0;
+}
+
+.si-form-container form .si-field {
+	margin: 25px 0;
+}
+
+.si-form-container #si-add-field {
+	margin: 15px 0;
+}

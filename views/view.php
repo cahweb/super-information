@@ -17,20 +17,23 @@
 	</p>
 
 	<div class="si-form-container">
+		<form method="POST" id="si-form">
+			<input type="submit" value="Save" id="si-save-fields"></input>
 
-		<div class="si-editable-row">
-			<form>
+			<div class="si-editable-row">
+
 				<div class="si-field">
-					<label name="test">Info label (eg. Department Name)</label>
-					<input type="text" name="test">
+					<label for="label_1">Info label (eg. Department Name)</label>
+					<input type="text" name="label_1">
 				</div>
+
 				<div class="si-field">
-					<label name="test2">Info value (eg. Music)</label>
-					<input type="text" name="test2">
+					<label for="value_1">Info value (eg. Music)</label>
+					<input type="text" name="value_1">
 				</div>
-				<a href="#">Remove</a>
-			</form>
-		</div>
+			</div>
+
+		</form>
 
 		<button id="si-add-field">Add Field</button>
 	</div>

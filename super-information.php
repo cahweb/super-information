@@ -41,3 +41,4 @@ function si_page_create() {
 function si_page_display() {
 	include 'views/view.php';
 }
+
